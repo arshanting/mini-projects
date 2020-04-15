@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX - Load more</title>
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .content {
+      max-width: 60%;
+      margin: 0 auto;
+      /* height: 1000px; */
+
+    }
+    .large {
+      height: 500px;
+    }
+    .box {
+      border: 2px solid #eee;
+    }
+    .box.new {
+      border: 2px solid #eee;
+    }
+    img {
+      width: 640px;
+      height: 320px;
+      max-width: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- <div class="large"></div> -->
+  <div id="content" class="content"></div>
+
+  <!-- <button id="loadMore">Load more items</button> -->
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/ajax-load-more.js"></script>
+</body>
+</html>
